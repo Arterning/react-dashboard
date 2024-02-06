@@ -5,7 +5,7 @@ export const menu = [
     listItems: [
       {
         id: 1,
-        title: "Homepage",
+        title: "Home",
         url: "/",
         icon: "home.svg",
       },
@@ -14,7 +14,7 @@ export const menu = [
         title: "Profile",
         url: "/users/1",
         icon: "user.svg",
-      },
+      }
     ],
   },
   {
@@ -33,6 +33,12 @@ export const menu = [
         url: "/products",
         icon: "product.svg",
       },
+      {
+        id: 3,
+        title: "Tool",
+        url: "/tool",
+        icon: "settings.svg",
+      }
     ],
   },
 ];
